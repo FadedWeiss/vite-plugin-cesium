@@ -18,8 +18,8 @@ export default function vitePluginCesium(options: VitePluginCesiumOptions = {}):
   const {
     rebuildCesium = false,
     devMinifyCesium = false,
-    cesiumBuildRootPath = 'node_modules/cesium/Build',
-    cesiumBuildPath = 'node_modules/cesium/Build/Cesium/'
+    cesiumBuildRootPath = 'node_modules/@earth3d/cesium/Build',
+    cesiumBuildPath = 'node_modules/@earth3d/cesium/Build/Cesium/'
   } = options;
 
   let CESIUM_BASE_URL = 'cesium/';
